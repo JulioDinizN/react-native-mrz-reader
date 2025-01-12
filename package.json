@@ -90,7 +90,9 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-reanimated": "",
+    "react-native-vision-camera": ""
   },
   "workspaces": [
     "example"

@@ -110,6 +110,8 @@ dependencies {
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
+  api project(":react-native-vision-camera")
+  implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.1'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 
